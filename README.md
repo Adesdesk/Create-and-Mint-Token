@@ -10,13 +10,13 @@ Implementing a custom Token contract where owner is able to mint tokens to a pro
 ### Installing
 
 * All necessary installations are pre-installed on Remix online IDE
-* Copy the raw file "CustomToken.sol" from the contracts folder within this repository
+* Copy the raw file "MyCustomToken.sol" from the contracts folder within this repository
 * Launch the Remix online IDE with the url https://remix.ethereum.org
 
 ### Executing program
 
 * In Remix, create a new file inside the "contracts" folder on the File explorer displayed on the left
-* Paste the raw copy from CrafterToken.sol (as below) in the new file you created.
+* Paste the raw copy from MyCustomToken.sol (as below) in the new file you created.
 
 
 ```
