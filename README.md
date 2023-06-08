@@ -17,7 +17,8 @@ Implementing a custom Token contract where owner is able to mint tokens to a pro
 
 * In Remix, create a new file inside the "contracts" folder on the File explorer displayed on the left
 * Paste the raw copy from CrafterToken.sol (as below) in the new file you created.
-* 
+
+
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
