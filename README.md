@@ -1,5 +1,5 @@
 # Create-and-Mint-Token
-A custom token smart contract.
+A custom token smart contract on the local HardHat network
 
 ## Description
 
