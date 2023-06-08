@@ -1,20 +1,35 @@
 {
-  "name": "create-and-mint-token",
+  "name": "reccoin-backend",
   "version": "1.0.0",
-  "description": "Implementing an ERC20 Token contract where owner is be able to mint tokens to a provided address, and any user is able to burn and transfer tokens.",
+  "description": "reccoin-smartcontracts",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
-    "hardhat": "^2.15.0",
-    "hardhat-deploy": "^0.11.30"
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.6",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.14.0",
+    "hardhat-deploy": "",
+    "hardhat-gas-reporter": "^1.0.8",
+    "mocha": "^10.2.0",
+    "solidity-coverage": "^0.8.1",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.0",
+    "typescript": "^5.0.4"
   },
   "dependencies": {
-    "ethers": "^6.5.1"
+    "@openzeppelin/contracts": "^4.9.0"
   }
 }
