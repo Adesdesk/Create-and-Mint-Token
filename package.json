@@ -1,0 +1,16 @@
+{
+  "name": "create-and-mint-token",
+  "version": "1.0.0",
+  "description": "Implementing an ERC20 Token contract where owner is be able to mint tokens to a provided address, and any user is able to burn and transfer tokens.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.15.0"
+  }
+}
